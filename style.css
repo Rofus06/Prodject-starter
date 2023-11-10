@@ -1,20 +1,46 @@
 
 .logo{
-    height: 200%;
-    width: 40%;
-    border: 2px solid black;
-    border-radius: 5px; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 h2{
     text-align: center;
+}
+
+h3{
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 5px;
 }
 
 nav{
     border: 2px solid black;
     border-radius: 5px;
 }
-main{
+article{
+    display: flex;
+    flex-direction: row;
     border: 2px solid black;
     border-radius: 5px;
     margin: 5px;
+}
+.Burger{
+    display: block;
+    width: 10%;
+    height: auto;
+}
+.Meat{
+    display: block;
+    margin-bottom: 1%;
+    margin-top: 1.4%;
+    width: 10%;
+    height: 10%;
+}
+.Pancake{
+    display: block;
+    margin-bottom: 1%;
+    margin-top: 1.1%;
+    width: 10%;
+    height: 10%;
 }
